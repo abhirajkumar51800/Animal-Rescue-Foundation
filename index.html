@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .imgg {
+        height: 60%;
+        width: 67%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 8%;
+      }
+      .adopt {
+        text-align: center;
+      }
+      .try {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        width: 70%;
+      }
+      .adopt1 {
+        margin-top: 5%;
+        margin-left: 15%;
+        font-size: 25px;
+        color: rgb(230, 140, 5);
+      }
+      .bgcolor {
+        background-color: rgb(241, 239, 239);
+      }
+      .heading2 {
+        margin-left: 4.5%;
+      }
+      .para {
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        font-size: 18px;
+      }
+      .foot{
+        background-color: rgb(52, 61, 52);
+        color: rgb(255, 255, 255);
+      }
+    </style>
+
+    <title>Animal Rescue Foundation</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Animal Rescue Foundation</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="https://www.arflife.org/adoptable-pets"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Adopt
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/adoptable-pets"
+                    >Adoptable Pets</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/adoption-process"
+                    >Adoption Process</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/mobile-adoption"
+                    >Mobile Adoption</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/courtesy-listings"
+                    >Courtesy Listings</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/new-beginnings"
+                    >New Beginnings</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="https://www.arflife.org/programs-and-services"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Programs and Services
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/pets-and-vets"
+                    >Pets and Vets</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/youth-programs"
+                    >Youth Programs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/training-and-workshops"
+                    >Training and Workshops</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/assistance-and-advice"
+                    >Assistance and Advice</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="https://www.arflife.org/get-involved"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Get Involved
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/volunteer"
+                    >Volunteer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/events-277"
+                    >Events</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/training-and-workshops-276"
+                    >Training and Workshops</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Apply">Apply</a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/veteran-faq"
+                    >FAQ</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="https://www.arflife.org/support"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Support Us
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="https://www.arflife.org/donate"
+                    >Donate</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.arflife.org/honor"
+                    >Honour</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/support-a-fund"
+                    >Support a Fund</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.arflife.org/partner-with-arf"
+                    >Partner with ARF</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="panda.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>45,000 Adoptions and Counting</h5>
+            <p>
+              For 30 years, ARF has been a lifeline for animals, giving them a
+              second chance at love.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="squirrel.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Join Us</h5>
+            <p>Get youself registered as a volunteer with us.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="cheetah.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Support Us</h5>
+            <p>Click on the Donate tab to support us.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div>
+      <h2 class="adopt1">Adopt</h2>
+    </div>
+
+    <div class="card-group try">
+      <div class="card bgcolor">
+        <img src="cat1.jpg" class="card-img-top imgg" id="cat1" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title adopt">
+            <a href="https://www.arflife.org/cats/32326928">ADOPT ME!</a>
+          </h5>
+          <p class="card-text adopt">I'm Harlow</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+      <div class="card bgcolor">
+        <img src="dog1.jpg" class="card-img-top imgg" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title adopt">
+            <a href="https://www.arflife.org/dogs/32326927">ADOPT ME!</a>
+          </h5>
+          <p class="card-text adopt">I'm Aries</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+      <div class="card bgcolor">
+        <img src="cat2.jpg" class="card-img-top imgg" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title adopt">
+            <a href="https://www.arflife.org/cats/32323917">ADOPT ME!</a>
+          </h5>
+          <p class="card-text adopt">I'm Willies</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="heading2">More about us</h2>
+      <p class="para">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat nam
+        odit architecto possimus? Non placeat consequatur, repudiandae aut
+        eligendi magnam, modi obcaecati molestias excepturi ex tempore illo
+        fugiat dolorem, maiores ipsa. Officia animi sunt praesentium in quam eos
+        autem provident voluptate asperiores culpa, suscipit excepturi maxime!
+        Doloremque quod architecto saepe omnis? Recusandae nam numquam officiis
+        maxime illum rerum provident tempora laboriosam perspiciatis voluptatem
+        ipsum eos facere labore quasi harum, totam dolores nihil? Voluptate
+        inventore nisi, ad porro sint, consequatur eius odio minima neque alias
+        esse facere eaque, sequi quas blanditiis fugiat dignissimos dicta sunt.
+        Suscipit natus, eos, repellendus numquam incidunt quas esse aut ex
+        doloribus animi dolore nam at rerum fugiat! Magni voluptatum repudiandae
+        qui quisquam ad dolorem voluptatibus, optio commodi. Rerum deserunt
+        pariatur quod suscipit quidem reprehenderit esse! Assumenda debitis
+        saepe accusantium repudiandae neque, illum, sunt facere nesciunt
+        pariatur maiores deserunt porro! Voluptas provident velit cupiditate
+        ullam id, eum voluptatum aspernatur culpa omnis doloremque, commodi
+        blanditiis veniam aliquid odit dolorem quo? Sapiente maxime ex quae
+        illum labore fugit beatae quidem nesciunt blanditiis optio molestiae eum
+        omnis aperiam, officiis excepturi repudiandae itaque doloribus? Non
+        temporibus nisi sint earum molestiae fugiat facilis, ipsam aliquam nulla
+        dicta, a accusamus? Molestiae esse porro eius minima sunt, itaque
+        perferendis! Facere possimus repellat non animi nesciunt praesentium ex
+        quisquam aspernatur vel,
+        veniam illum?
+      </p>
+    </div>
+    <br>
+    <br>
+    
+    <!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4 foot">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mb-4">Managing Director</h5>
+        <p>Abhijeet Gupta is the Managing Director of Animal Rescue Foundation.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
+          esse
+          quasi, veritatis totam voluptas nostrum.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <a href="https://www.arflife.org/events">EVENTS</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.arflife.org/volunteer">VOLUNTEER</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.arflife.org/adoptable-pets">ADOPT</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.arflife.org/veteran-faq">FAQ</a>
+            </p>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Contact details -->
+        <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <i class="fas fa-home mr-3"></i> Ranchi, Jharkhand, India</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> abhirajkumar51800@gmail.com</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-phone mr-3"></i> + 91 97 6262 17 62</p>
+          </li>
+         
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+        <!-- Social buttons -->
+        <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+        <!-- Facebook -->
+        <a type="button" class="btn-floating btn-fb">
+          <i class="fab fa-facebook-f"><a href="https://www.arflife.org/">FACEBOOK</a></i>
+        </a>
+        <br>
+        <br>
+        <!-- Twitter -->
+        <a type="button" class="btn-floating btn-tw">
+          <i class="fab fa-twitter"><a href="https://www.arflife.org/">TWITTER</a></i>
+        </a>
+        <br>
+        <br>
+        <!-- Google +-->
+        <a type="button" class="btn-floating btn-gplus">
+          <i class="fab fa-google-plus-g"><a href="https://www.arflife.org/">GOOGLE+</a></i>
+        </a>
+        <br>
+        <br>
+        <!-- Dribbble -->
+        <a type="button" class="btn-floating btn-dribbble">
+          <i class="fab fa-dribbble"><a href="https://www.arflife.org/">DRIBBLE</a></i>
+        </a>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://www.arflife.org/"> Animal Rescue Foundation</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
